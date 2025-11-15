@@ -3,6 +3,49 @@
 Welcome to the **Data Warehouse and Analytics Project** repository!
 This project demonstrates a complete end-to-end data warehouse workflow, starting from raw data ingestion and progressing through each stage of data processing. It highlights practical techniques commonly used in modern data engineering environments.
 
+---
+
+## 🧱 Modern Data Architecture (Medallion Layers)
+
+This project implements the following three structured layers:
+
+### 🥉 Bronze Layer – Raw Data Ingestion
+- Directly stores unmodified data from the source systems
+- Source files (CSV) are loaded into a SQL Server database
+- Acts as the single source for original records
+
+### 🥈 Silver Layer – Cleansed, Standardized & Normalised
+- Applies cleaning, deduplication
+- Normalizes fields and prepares data for modeling
+- Ensures consistency and improves data usability
+
+### 🥇 Gold Layer – Analytics-Ready Data
+- Houses business-ready fact & dimension tables
+- Modeled using a **Star Schema** for fast analytical queries
+- The primary layer is perfect for dashboards, analysis, and reporting
+
+---
+
+## 📘 Project Summary
+
+This Project demonstrates:
+
+- **Architecting a modern data warehouse** using SQL Server
+- **Building ETL pipelines** to load and refine data
+- **Designing analytical models** (facts & dimensions)
+- **Creating professional documentation** for teams and stakeholders
+
+---
+
+## 🧰 Tools & Resources Used
+
+Tools used in this project are:
+
+- **Datasets:** CSV files from CRM and ERP systems
+- **SQL Server Management Studio (SSMS):** GUI for SQL Server
+- **Git & GitHub:** Version control and project collaboration
+- **Draw.io:** Used for architecture, models, and flow diagrams
+- **Notion:** Project planning and workflow tracking
 
 ---
 
