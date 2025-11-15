@@ -9,6 +9,8 @@ This project demonstrates a complete end-to-end data warehouse workflow, startin
 
 This project implements the following three structured layers:
 
+<img width="1036" height="631" alt="Data_Architecture" src="https://github.com/user-attachments/assets/597fa61f-3bfc-4af1-8a45-f513bcd36178" />
+
 ### 🥉 Bronze Layer – Raw Data Ingestion
 - Directly stores unmodified data from the source systems
 - Source files (CSV) are loaded into a SQL Server database
@@ -49,29 +51,45 @@ Tools used in this project are:
 
 ---
 
-## Project Requirements
+## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
-
-#### Specifications
-- **Data Sources** : Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality** : Cleanse and resolve data quality issues prior to analysis.
-- **Integration** : Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope** : Focus on the latest dataset only; historization of data is not required.
-- **Documentation** : Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-
-### BI: Analytics & Reporting (Data Analytics)
+#### Key Requirements
+- Ingest data from CSV-based source systems (ERP & CRM)
+- Check data quality issues before processing
+- Integrate datasets into a unified analytical structure
+- Use only the latest dataset (Historical data not required)
+- Provide documentation for both technical and business teams
 
 #### Objective
-Develop SQL-based analytics to deliver detailed insights into:
+Develop SQL-based analytics to shoqcase detailed insights into:
 - **Customer Behavior**
-- **Product Performance**
+- **Product Performance and profitability**
 - **Sales Trends**
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+## 📂 Repository Structure
+
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_integration.drawio         # Draw.io file for data integration
+│   ├── data_model_starschema.drawio              # Draw.io file for data model (star schema)
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw datasets
+│   ├── silver/                         # Scripts for cleaning and transforming data  
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Testing scripts and quality check files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
 
 ## License
 
