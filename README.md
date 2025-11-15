@@ -94,6 +94,10 @@ data-warehouse-project/
 ├── LICENSE                             # License information
 ```
 
+## 📘 Project Planning (Notion)
+
+👉 **View full project plan on Notion:**  
+🔗 (https://www.notion.so/Data-Warehouse-Project-2a52321eb4e680b1be16e860736f18ac?source=copy_link)
 
 ## License
 
