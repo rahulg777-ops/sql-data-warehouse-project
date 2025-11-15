@@ -69,6 +69,28 @@ Develop SQL-based analytics to shoqcase detailed insights into:
 - **Sales Trends**
 
 ## 📂 Repository Structure
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # ETL techniques and workflow
+│   ├── data_architecture.drawio        # Architecture design diagram
+│   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_integration.drawio         # Data integration workflow
+│   ├── data_model_starschema.drawio    # Star schema data model
+│   ├── data_catalog.md                 # Dataset catalog & metadata
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Raw data extraction and loading scripts
+│   ├── silver/                         # Cleaning and transformation scripts
+│   ├── gold/                           # Business-ready analytical model scripts
+│
+├── tests/                              # Testing scripts and quality checks
+│
+├── README.md                           # Project documentation
+├── LICENSE                             # License information
+└── .gitignore                          # Git ignore rules
 
 
 data-warehouse-project/
