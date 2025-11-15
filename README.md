@@ -70,6 +70,7 @@ Develop SQL-based analytics to shoqcase detailed insights into:
 
 ## 📂 Repository Structure
 
+
 data-warehouse-project/
 │
 ├── datasets/ # Raw datasets used for the project (ERP and CRM data)
@@ -90,6 +91,8 @@ data-warehouse-project/
 │
 ├── README.md # Project documentation
 ├── LICENSE # License information
+
+
 
 ## License
 
