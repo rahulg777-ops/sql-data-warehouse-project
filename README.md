@@ -72,24 +72,24 @@ Develop SQL-based analytics to shoqcase detailed insights into:
 
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/ # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_integration.drawio         # Draw.io file for data integration
-│   ├── data_model_starschema.drawio              # Draw.io file for data model (star schema)
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+├── docs/ # Project documentation and architecture details
+│ ├── data_architecture.drawio # Architecture design diagram
+│ ├── data_flow.drawio # Data flow diagram
+│ ├── data_integration.drawio # Data integration workflow
+│ ├── data_model_starschema.drawio # Star schema data model diagram
+│ ├── data_catalog.md # Dataset catalog & metadata
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw datasets
-│   ├── silver/                         # Scripts for cleaning and transforming data  
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/ # Raw data extraction and loading scripts
+│ ├── silver/ # Cleaning and transformation scripts
+│ ├── gold/ # Business-ready analytical model scripts
 │
-├── tests/                              # Testing scripts and quality check files
+├── tests/ # Testing scripts and quality checks
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
+├── README.md # Project documentation
+├── LICENSE # License information
 
 ## License
 
