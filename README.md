@@ -81,7 +81,7 @@ data-warehouse-project/
 │   ├── data_flow.drawio                # Data flow diagram
 │   ├── data_integration.drawio         # Data integration workflow
 │   ├── data_model_starschema.drawio    # Star schema data model
-│   ├── project_planning.md              # Complete Project Planning using Notion
+│   ├── project_planning.md             # Complete Project Planning using Notion
 │   ├── data_catalog.md                 # Dataset catalog & metadata
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
